@@ -1,7 +1,4 @@
 data/
 defect_detect_env/
-
-data/
-defect_detect_env/
 *.npz
 *.pkl
