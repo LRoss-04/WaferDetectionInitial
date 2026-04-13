@@ -1,16 +1,16 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from src.config import (
+from .config import (
     CNN_DROPOUT,      
     CNN_LEARNING_RATE,
     device            
 )
 
 
+
 #Starting the simple CNN
 class SimpleCNN(nn.Module):
-  #Autofilled by copiolt
   def __init__(self):
     super(SimpleCNN, self).__init__()
 

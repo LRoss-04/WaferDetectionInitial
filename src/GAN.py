@@ -5,11 +5,10 @@ import matplotlib.pyplot as plt
 from torch.optim import Adam
 from torch.utils.data import DataLoader, TensorDataset
 import torch.autograd as autograd
-from src.config import (
+from .config import (
     device,
     GAN_LATENT_DIM,
     GAN_EPOCHS,
-    GAN_BATCH_SIZE,
     GAN_LR_GENERATOR,
     GAN_LR_DISCRIMINATOR,
     GAN_LAMBDA_GP,
