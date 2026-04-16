@@ -4,7 +4,7 @@ import torch
 import cv2
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.model_selection import train_test_split
-from .config import (
+from src.config import (
     WM38Data,
     WM811KData,
     WM811K_LABEL_MAP,

@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from .config import (
+from src.config import (
     CNN_EPOCHS,
     device
 )

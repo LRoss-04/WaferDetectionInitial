@@ -9,13 +9,14 @@ WM38Data = "datasets/MixedWM38.npz"
 WM811KData = "datasets/WM811K.pkl"
 
 # CNN
-CNN_EPOCHS = 50
+CNN_EPOCHS = 30
 CNN_LEARNING_RATE = 0.001
 CNN_DROPOUT = 0.25
 
 # GAN
 GAN_LATENT_DIM = 100
-GAN_EPOCHS = 200
+GAN_BATCH_SIZE = 64
+GAN_EPOCHS = 50
 GAN_LR_GENERATOR = 0.0002
 GAN_LR_DISCRIMINATOR = 0.00002
 GAN_LAMBDA_GP = 10
@@ -38,4 +39,4 @@ WM811K_LABEL_MAP = {
 }
 
 # Class names
-CLASS_NAMES = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9']
+CLASS_NAMES = ['Center', 'Donut', 'Edge-Loc', 'Edge-Ring', 'Loc', 'Scratch', 'Random', 'Near-full', 'none']

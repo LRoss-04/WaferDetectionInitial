@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from torch.optim import Adam
 from torch.utils.data import DataLoader, TensorDataset
 import torch.autograd as autograd
-from .config import (
+from src.config import (
     device,
     GAN_LATENT_DIM,
     GAN_EPOCHS,
@@ -15,8 +15,7 @@ from .config import (
     GAN_N_CRITIC,
     GAN_BETA1,
     GAN_BETA2,
-    GAN_TARGET_CLASSES,
-    CLASS_NAMES
+    GAN_TARGET_CLASSES,    GAN_BATCH_SIZE,    CLASS_NAMES
 )
 
 Tensor = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.FloatTensor

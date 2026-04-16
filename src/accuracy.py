@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from sklearn.metrics import f1_score, classification_report
-from .config import device, CLASS_NAMES
+from src.config import device, CLASS_NAMES
 
 # -------------------------------------------------------------------
 # CNN Evaluation
